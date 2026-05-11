@@ -248,10 +248,12 @@ nav {
 .project__description {
     position: absolute;
     top: 50%;
-    right: 90px;
-    transform: translateY(-50%);
+    left: 90px;
+    transform: translateY(100%);
     max-width: 550px;
     z-index: 3;
+    opacity: 0;
+    transition: transform 450ms, opacity 300ms;
 }
 
 .project__description--title,
